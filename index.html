@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
-  </head>
-  <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
-  </body>
+    <title>Exchange Rate</title>
+    <link rel="stylesheet" href="assets/styles/app.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+    <script src="assets/scripts/app.js" defer></script>
+    <!-- scriptin sonuna defer yazmasan addEventListener islemeyecek -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div id="head">
+    <h1>USD TO AZN</h1>
+    <input id="input" type="text" name="inputValue" value="$$$ USD $$$">
+    
+    <button>Convert</button><p>Yazı ilə göstər ?</p>
+    <input id="checkbox" type="checkbox">
+  </div>
+  <br><br><br>
+
+  <div id="body">
+
+  </div>
+  <br>
+  <div id="imagePlace">
+    <br>
+  </div>
+</body>
 </html>
+

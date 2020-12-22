@@ -1,0 +1,19 @@
+input,
+p {
+  display: inline-block;
+}
+#body {
+  background-color: darkblue;
+  color: orange;
+  font-size: 26px;
+  padding: auto;
+}
+#banknote {
+  width: 400px;
+  height: 200px;
+}
+
+#coin {
+  width: 200px;
+  height: 200px;
+}
